@@ -14,7 +14,7 @@ public class NameApp {
         System.out.print("Enter your last name: ");
         last = scan.nextLine();
 
-        number = num.nextInt(98) + 1;
+        number = num.nextInt(99) + 1;
 
         System.out.print(last.substring(0, 1) + first.substring(0, 5) + number);
 
