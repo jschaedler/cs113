@@ -1,6 +1,11 @@
 public class Dog {
-    private String dog = new String("dog");
-    private int age = 0;
+    private String dog;
+    private int age;
+
+    public Dog() {
+        dog = "dog";
+        age = 0;
+    }
 
     public String getdog() {
         return dog;
