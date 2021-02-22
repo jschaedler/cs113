@@ -4,6 +4,7 @@ public class TestMethods {
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+
         MyMethods method1 = new MyMethods();
         int length, width, height;
         System.out.print("Enter length: ");

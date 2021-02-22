@@ -21,7 +21,7 @@ public class Die {
     }
 
     public String toString() {
-        String info = "Die with face value: " + faceValue;
+        String info = "" + faceValue;
         return info;
     }
 }

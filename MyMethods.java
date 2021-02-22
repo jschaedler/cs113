@@ -2,7 +2,6 @@
 public class MyMethods {
 
     public static int surface(int length, int width, int height) {
-
         return 2 * length * width + 2 * length * height + 2 * height * width;
     }
 
@@ -25,7 +24,7 @@ public class MyMethods {
     }
 
     public String toString() {
-        String finalstring = new String(swapFaceValues());
-        return finalstring;
+        String methods = new String("The surface area is: " + "\n" + swapFaceValues());
+        return methods;
     }
 }
