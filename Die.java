@@ -24,4 +24,21 @@ public class Die {
         String info = "" + faceValue;
         return info;
     }
+
+    public boolean equals(Die die2) {
+        if (die2.getFaceValue() == faceValue)
+            return true;
+        else
+            return false;
+    }
+
+    public int compareTo(Die die2) {
+        if (faceValue < die2.getFaceValue())
+            return -1;
+        else if (faceValue == die2.getFaceValue())
+            return 0;
+        else
+            return 1;
+
+    }
 }
