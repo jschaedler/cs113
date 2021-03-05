@@ -41,4 +41,5 @@ public class Die {
             return 1;
 
     }
+
 }

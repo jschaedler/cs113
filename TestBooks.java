@@ -47,14 +47,11 @@ public class TestBooks {
 
             int thisBook = books.get(length - 1).getPages();
             allBooks = thisBook + allBooks;
-
             length--;
-
         }
+
         float avgPages = (allBooks) / books.size();
-
         System.out.println("The average number of pages for the " + numBooks + " books is : " + avgPages);
-
         scan.close();
 
     }
