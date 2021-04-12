@@ -22,7 +22,7 @@ public class Practice2E {
         }
 
         System.out.println("Honor roll Students: " + honorRollStudents);
-
+        scan.close();
     }
 
 }
