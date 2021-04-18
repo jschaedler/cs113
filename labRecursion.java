@@ -46,12 +46,8 @@ public class labRecursion {
     }
 
     public static void main(String[] args) {
-        System.out.println(power(3, 4));
-        System.out.println(numDigits(3222));
-        System.out.println(sumDigits(3222));
-        System.out.println(isPalendrome("deer"));
-        System.out.println(isPalendrome("madam"));
-        printBackwords("hello");
+
+        System.out.println(numDigits(31173));
 
     }
 
