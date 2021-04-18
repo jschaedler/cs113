@@ -9,7 +9,6 @@ public class Practice2H {
             vaxArray[i] = tempvax;
         }
 
-        int max = 0;
         VirusStrain bestH1N1 = new VirusStrain("H1N1", 0);
         VirusStrain bestBris = new VirusStrain("Bris", 0);
         Practice2G bestVax = new Practice2G(bestH1N1, bestBris);

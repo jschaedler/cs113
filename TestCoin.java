@@ -1,7 +1,5 @@
 import java.util.*;
 
-import org.graalvm.compiler.core.common.calc.FloatConvertCategory;
-
 public class TestCoin {
     public static void main(String[] args) {
         Random rand = new Random();
