@@ -10,9 +10,8 @@ public class MonataryCoin extends Coin {
     }
 
     public String toString() {
-        String info = "The coin is worth: " + value;
-        return info;
-        super.toString();
+
+        return "The coin is worth: " + value + super.toString();
 
     }
 }
