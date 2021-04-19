@@ -1,4 +1,4 @@
-public class MonataryCoin extends Coin {
+public class MonetaryCoin extends Coin {
     private int value;
 
     public int getValue() {
