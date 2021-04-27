@@ -8,7 +8,7 @@ public class Cylinder extends shape {
     }
 
     public double area() {
-        return Math.PI * radius * radius * height;
+        return 2 * Math.PI * radius * height;
     }
 
     public String toString() {
