@@ -1,4 +1,19 @@
 public class Circle {
+
+    /*
+     * protected double radius;
+     * 
+     * public Circle(double r) { radius = r; }
+     * 
+     * public void setRadius(double r) { radius = r; }
+     * 
+     * public double getRadius() { return radius; }
+     * 
+     * public double area() { return Math.PI * radius * radius; }
+     * 
+     * public String toString() { return "Circle:Radius= " + radius; } }
+     */
+
     private Point center;
     private float radius;
 
@@ -29,5 +44,4 @@ public class Circle {
         String info = "The point has x and y values: " + "\n" + center + "\nThe radius is: " + radius;
         return info;
     }
-
 }
