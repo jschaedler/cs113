@@ -7,7 +7,6 @@ public class ThrowingBonus {
         System.out.println("How many executives are there? ");
         Executive[] array = new Executive[scan.nextInt()];
 
-        Executive tempExec;
         for (int i = 0; i < array.length; i++) {
 
             System.out.println("Enter Employee Name ");
@@ -20,13 +19,14 @@ public class ThrowingBonus {
             String social = scan.nextLine();
             System.out.println("Enter Employee Rate ");
             double rate = scan.nextDouble();
-            array[i] = new tempExec(name, adress, phone, social, rate);
+            array[i] = new Executive(name, adress, phone, social, rate);
             System.out.println("Enter Employee Bonus");
             int bonus = scan.nextInt();
             if (bonus < 1000)
                 throw problem;
             array[i].awardBonus(bonus);
         }
-
+        scan.close();
     }
+
 }
