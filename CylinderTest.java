@@ -1,8 +1,8 @@
 public class CylinderTest extends Circle {
     private double height;
 
-    public CylinderTest(double r, double h) {
-        super(r);
+    public CylinderTest(Point r, Float  h) {
+        super(r, h);
         height = h;
     }
 
